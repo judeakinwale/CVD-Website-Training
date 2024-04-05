@@ -35,7 +35,7 @@
     <div class="navbar">
       <div class="nav-left">
         <img src="./static/img/Ellipse 1.svg" alt="user logo" />
-        <div class="">
+        <div class="welcome-text">
           <h4>Hello Mary Jane</h4>
           <small>It’s nice seeing you again!</small>
         </div>
@@ -43,19 +43,27 @@
 
       <div class="nav-right">
         <a href="/" class="nav-item">
-          <img src="./static/img/bxs_news.png" height="24" alt="" /> 
+          <img src="./static/img/bxs_news.png" height="24" alt="" />
           <span>Market News</span>
         </a>
         <a href="/" class="nav-item">
-          <img src="./static/img/bxs_bell.png" height="24" alt="" /> 
+          <img src="./static/img/bxs_bell.png" height="24" alt="" />
           <span>Notification</span>
         </a>
         <a href="/" class="nav-item">
-          <img src="./static/img/iconamoon_profile-fill.png" height="24" alt="" />
+          <img
+            src="./static/img/iconamoon_profile-fill.png"
+            height="24"
+            alt=""
+          />
           <span>Profile</span>
         </a>
         <a href="/" class="nav-item">
-          <img src="./static/img/majesticons_logout-half-circle.png" height="24" alt="" />
+          <img
+            src="./static/img/majesticons_logout-half-circle.png"
+            height="24"
+            alt=""
+          />
           <span>Logout</span>
         </a>
       </div>
@@ -177,5 +185,49 @@
       <!-- Weather Forecast -->
     </div>
     <!-- Prices and Weather Section -->
+
+    <!-- Main Section -->
+    <div class="main-section">
+      <!-- Filter Section -->
+      <div class="filter">
+        <div class="filter-header">Available Crops</div>
+        <div class="filter-options">
+          <a href="http://" class="filter-option selected-filter-option"
+            >Cassava</a
+          >
+          <a href="http://" class="filter-option">Oil Pam</a>
+          <a href="http://" class="filter-option">Beans</a>
+          <a href="http://" class="filter-option">Rice</a>
+          <a href="http://" class="filter-option">Cocoa</a>
+          <a href="http://" class="filter-option">Maize</a>
+          <a href="http://" class="filter-option">Wheat</a>
+          <a href="http://" class="filter-option">Tomato</a>
+          <a href="http://" class="filter-option">Potato</a>
+          <a href="http://" class="filter-option">Barley</a>
+        </div>
+      </div>
+      <!-- Filter Section -->
+
+      <!-- Price History and Product Details -->
+      <div class="product-details-container">
+        <div class="price-history">
+          <p>Price History</p>
+          <p>Today</p>
+          <img src="/static/img/bxs_calendar.png" alt="" height="24px" />
+        </div>
+        <select name="Currency" id="currency" class="select-currency">
+          <option value="">Select Currency</option>
+        </select>
+        <img
+          src="/static/img/cassava.png"
+          class="product-img"
+          alt="cassava"
+        />
+        <div class="product-details">
+          <h1>Product Details</h1>
+        </div>
+      </div>
+    </div>
+    <!-- Main Section -->
   </body>
 </html>
