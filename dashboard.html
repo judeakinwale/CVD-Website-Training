@@ -209,22 +209,75 @@
       <!-- Filter Section -->
 
       <!-- Price History and Product Details -->
-      <div class="product-details-container">
-        <div class="price-history">
-          <p>Price History</p>
-          <p>Today</p>
-          <img src="/static/img/bxs_calendar.png" alt="" height="24px" />
+      <div class="">
+        <div class="product-details-container product-history-currecy">
+          <div class="price-history">
+            <p>Price History</p>
+            <p>Today</p>
+            <img src="/static/img/bxs_calendar.png" alt="" height="24px" />
+          </div>
+          <select name="Currency" id="currency" class="select-currency">
+            <option value="">Select Currency</option>
+          </select>
         </div>
-        <select name="Currency" id="currency" class="select-currency">
-          <option value="">Select Currency</option>
-        </select>
-        <img
-          src="/static/img/cassava.png"
-          class="product-img"
-          alt="cassava"
-        />
-        <div class="product-details">
-          <h1>Product Details</h1>
+        <div class="product-details-container">
+          <img
+            src="/static/img/cassava.png"
+            class="product-img"
+            alt="cassava"
+          />
+          <div class="product-details">
+            <div class="product-title">
+              <h1>Cassava</h1>
+              <a href="http://" class="price-alert-btn">Price Alert</a>
+            </div>
+            <p>Previous Price: &nbsp; NGN 20,000</p>
+            <p>Current Price: &nbsp; NGN 18,000</p>
+
+            <img
+              src="./static/img/graph.png"
+              alt="Cassava Price Graph"
+              class="price-graph-img"
+            />
+
+            <div class="analysis-export">
+              <a href="http://" class="analysis-btn">Expert Analysis</a>
+              <a href="http://" class="export-btn">Export</a>
+            </div>
+
+            <div class="product-details-text">
+              <p>
+                Cassava (Manihot esculenta) is a vital crop with widespread
+                cultivation in tropical regions, and it holds both economic and
+                nutritional significance. Here's a short expert analysis on
+                cassava:
+              </p>
+              <ol class="product-details-list">
+                <li class="details-list-item">
+                  Staple Food Security: Cassava is a primary staple food for
+                  millions of people in Africa, Asia, and Latin America. It
+                  provides a crucial source of carbohydrates in the form of
+                  starch, making it a valuable food security crop, particularly
+                  in regions prone to droughts and other climate-related
+                  challenges.
+                </li>
+                <li class="details-list-item">
+                  Nutritional Value: Cassava is relatively low in protein and
+                  essential nutrients compared to other staple crops. However,
+                  it is an important source of energy. It's essential to note
+                  that cassava's nutritional value can be improved through
+                  processing and dietary diversification.
+                </li>
+                <li class="details-list-item">
+                  Diverse Uses: Cassava is versatile and can be used in various
+                  forms, such as fresh cassava tubers, dried chips, or cassava
+                  flour. Its uses range from basic food consumption to
+                  industrial applications like ethanol production and animal
+                  feed.
+                </li>
+              </ol>
+            </div>
+          </div>
         </div>
       </div>
     </div>
