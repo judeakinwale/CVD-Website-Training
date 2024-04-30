@@ -229,6 +229,9 @@
   grid-template-columns: 1fr 4fr;
   /* gap: 20px; */
   padding: 10px 40px;
+
+  max-height: 120vh;
+  overflow: hidden;
 }
 
 .filter {
@@ -292,7 +295,8 @@
   height: auto;
 }
 
-.product-details {}
+.product-details {
+}
 
 .product-title {
   display: flex;
